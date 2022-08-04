@@ -1,0 +1,98 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    display: flex;
+    min-height: 70px;
+    align-items: center;
+    padding: 15px;
+}
+.logo img{
+    height: 30px;
+}
+nav a{
+    font-weight: 600;
+    padding: 10px;
+}
+.buscar input{
+    width: 1000px;
+    height: 40px;
+    padding: 10 20px;
+    font-size: 18px;
+    color: black;
+    background-color: rgba(160, 158, 158, 0.36);
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 30px;
+}
+.search img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 55px;
+    height: 55px;
+}
+.notificacion img{
+    height: 25px;
+    width: 25px;
+}
+.mensajes img{
+    height: 25px;
+    width: 25px;
+}
+.hover:hover{
+    background-color: rgba(128, 128, 128, 0.138);
+    border-radius: 20px;
+}
+.usuario img{
+    height: 25px;
+    width: 25px;
+}
+.inicio{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.pin_container {
+    margin: 0;
+    padding: 0;
+    width: 80vw;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    justify-content: center;
+    gap: 10px;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill,280px);
+    grid-auto-rows: 450px;
+    background-color: white;
+
+}
+.card img{
+    padding: 0px;
+    margin: 15px 10px;
+    border-radius: 26px;
+}
+.card_small img{
+    width: 280px;
+    height: 260px;
+    
+    
+}
+.card_medium img{
+    width: 280px;
+    height: 360px;
+    
+}
+.card_large img{
+    width: 280px;
+    height: 450px;
+    
+}
